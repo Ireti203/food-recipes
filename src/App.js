@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Food Searching App</h1>
+      <h1>Yummy Spot</h1>
       <form className="search-form" onSubmit={onSubmit}>
         {alert !=="" &&  <Alert alert={alert}/>}
         <input type="text"

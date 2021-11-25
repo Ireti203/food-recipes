@@ -11,7 +11,7 @@ const Recipe = ({recipe}) => {
             <h2>{label}</h2>
             <img src={image} alt={label}/>
             <a href={url} target="_blank" rel="noopener noreferrer">
-                URL
+                See more...
             </a>
             <button onClick = {() => setShow(!show)}>Ingredients</button>
             { show &&
